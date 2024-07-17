@@ -1,0 +1,119 @@
+===============================================================
+           Sistemas Distribuídos Prof. Elias
+              LOG do Trabalho Prático 2
+      Digitar, compilar e executar o programa tempo.c
+   Este programa foi executado para: N=8 processos.
+           Tempo Total de Simulação = 90
+===============================================================
+Socooorro!!! Sou o processo 0  e estou falhando no tempo 10.0
+Vetor de estados do processo 1:
+0: -1 | 1: 0 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 
+O processo 1 testou o processo 0 falho no tempo 30.0
+Vetor de estados do processo 1:
+0: 1 | 1: 0 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 
+O processo 1 testou o processo 2 correto no tempo 30.0
+Vetor de estados do processo 1:
+0: 1 | 1: 0 | 2: 0 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 
+O processo 1 testou o processo 3 correto no tempo 30.0
+Vetor de estados do processo 1:
+0: 1 | 1: 0 | 2: 0 | 3: 0 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 
+O processo 1 testou o processo 4 correto no tempo 30.0
+Vetor de estados do processo 1:
+0: 1 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 
+O processo 1 testou o processo 5 correto no tempo 30.0
+Vetor de estados do processo 1:
+0: 1 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: -1 | 7: -1 | 
+Vetor de estados do processo 2:
+0: -1 | 1: -1 | 2: 0 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 
+O processo 2 testou o processo 3 correto no tempo 30.0
+Vetor de estados do processo 2:
+0: -1 | 1: -1 | 2: 0 | 3: 0 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 
+O processo 2 testou o processo 0 falho no tempo 30.0
+Vetor de estados do processo 2:
+0: 1 | 1: -1 | 2: 0 | 3: 0 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 
+O processo 2 testou o processo 4 correto no tempo 30.0
+Vetor de estados do processo 2:
+0: 1 | 1: -1 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 
+O processo 2 testou o processo 6 correto no tempo 30.0
+Vetor de estados do processo 2:
+0: 1 | 1: -1 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: 0 | 7: -1 | 
+Vetor de estados do processo 3:
+0: -1 | 1: -1 | 2: -1 | 3: 0 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 
+O processo 3 testou o processo 2 correto no tempo 30.0
+Vetor de estados do processo 3:
+0: 1 | 1: -1 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: 0 | 7: -1 | 
+O processo 3 testou o processo 1 correto no tempo 30.0
+Vetor de estados do processo 3:
+0: 1 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 
+O processo 3 testou o processo 7 correto no tempo 30.0
+Vetor de estados do processo 3:
+0: 1 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 4:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 
+O processo 4 testou o processo 5 correto no tempo 30.0
+Vetor de estados do processo 4:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: 0 | 5: 0 | 6: -1 | 7: -1 | 
+O processo 4 testou o processo 6 correto no tempo 30.0
+Vetor de estados do processo 4:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 
+O processo 4 testou o processo 0 falho no tempo 30.0
+Vetor de estados do processo 4:
+0: 1 | 1: -1 | 2: -1 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 
+Vetor de estados do processo 5:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: 0 | 6: -1 | 7: -1 | 
+O processo 5 testou o processo 4 correto no tempo 30.0
+Vetor de estados do processo 5:
+0: 1 | 1: -1 | 2: -1 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 
+O processo 5 testou o processo 7 correto no tempo 30.0
+Vetor de estados do processo 5:
+0: 1 | 1: -1 | 2: -1 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+O processo 5 testou o processo 1 correto no tempo 30.0
+Vetor de estados do processo 5:
+0: 1 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 6:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: 0 | 7: -1 | 
+O processo 6 testou o processo 7 correto no tempo 30.0
+Vetor de estados do processo 6:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: 0 | 7: 0 | 
+O processo 6 testou o processo 4 correto no tempo 30.0
+Vetor de estados do processo 6:
+0: 1 | 1: -1 | 2: -1 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+O processo 6 testou o processo 2 correto no tempo 30.0
+Vetor de estados do processo 6:
+0: 1 | 1: -1 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Vetor de estados do processo 7:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: 0 | 
+O processo 7 testou o processo 6 correto no tempo 30.0
+Vetor de estados do processo 7:
+0: 1 | 1: -1 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+O processo 7 testou o processo 5 correto no tempo 30.0
+Vetor de estados do processo 7:
+0: 1 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+O processo 7 testou o processo 3 correto no tempo 30.0
+Vetor de estados do processo 7:
+0: 1 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 
+Pai: 7 - s: 3
+Pai: 7 - filho: 6
+Pai: 6 - s: 1
+Eh folha: 6
+Pai: 7 - filho: 5
+Pai: 5 - s: 2
+Pai: 5 - filho: 4
+Pai: 4 - s: 1
+Eh folha: 4
+Pai: 7 - filho: 3
+Pai: 3 - s: 3
+Pai: 3 - filho: 2
+Pai: 2 - s: 1
+Eh folha: 2
+Pai: 3 - filho: 1
+Pai: 1 - s: 2
+Pai: 1 - filho: 0
+Filho estah falho
+Pai: 1 - filho: 2
+Pai: 2 - s: 2
+Pai: 2 - filho: 3
+Pai: 3 - s: 1
+Eh folha: 3
+Pai: 2 - filho: 0
+Filho estah falho

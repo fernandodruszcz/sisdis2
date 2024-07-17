@@ -1,0 +1,732 @@
+===============================================================
+           Sistemas Distribuídos Prof. Elias
+              LOG do Trabalho Prático 2
+      Digitar, compilar e executar o programa tempo.c
+   Este programa foi executado para: N=16 processos.
+           Tempo Total de Simulação = 120
+===============================================================
+Vetor de estados do processo 0:
+0: 0 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 0 testou o processo 1 correto no tempo 30.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 0 testou o processo 2 correto no tempo 30.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 0 testou o processo 4 correto no tempo 30.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 0 testou o processo 8 correto no tempo 30.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+Vetor de estados do processo 1:
+0: -1 | 1: 0 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 1 testou o processo 0 correto no tempo 30.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 1 testou o processo 3 correto no tempo 30.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 1 testou o processo 5 correto no tempo 30.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: -1 | 7: -1 | 8: 0 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 1 testou o processo 9 correto no tempo 30.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+Vetor de estados do processo 2:
+0: -1 | 1: -1 | 2: 0 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 2 testou o processo 3 correto no tempo 30.0
+Vetor de estados do processo 2:
+0: -1 | 1: -1 | 2: 0 | 3: 0 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 2 testou o processo 0 correto no tempo 30.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 2 testou o processo 6 correto no tempo 30.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: 0 | 7: -1 | 8: 0 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 2 testou o processo 10 correto no tempo 30.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: 0 | 7: -1 | 8: 0 | 9: -1 | 10: 0 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+Vetor de estados do processo 3:
+0: -1 | 1: -1 | 2: -1 | 3: 0 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 3 testou o processo 2 correto no tempo 30.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: 0 | 7: -1 | 8: 0 | 9: -1 | 10: 0 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 3 testou o processo 1 correto no tempo 30.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 3 testou o processo 7 correto no tempo 30.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 3 testou o processo 11 correto no tempo 30.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+Vetor de estados do processo 4:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 4 testou o processo 5 correto no tempo 30.0
+Vetor de estados do processo 4:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: 0 | 5: 0 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 4 testou o processo 6 correto no tempo 30.0
+Vetor de estados do processo 4:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 4 testou o processo 0 correto no tempo 30.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 4 testou o processo 12 correto no tempo 30.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: -1 | 10: -1 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+Vetor de estados do processo 5:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: 0 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 5 testou o processo 4 correto no tempo 30.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: -1 | 10: -1 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 5 testou o processo 7 correto no tempo 30.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: -1 | 10: -1 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 5 testou o processo 1 correto no tempo 30.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: -1 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 5 testou o processo 13 correto no tempo 30.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: -1 | 11: -1 | 12: 0 | 13: 0 | 14: -1 | 15: -1 | 
+Vetor de estados do processo 6:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: 0 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 6 testou o processo 7 correto no tempo 30.0
+Vetor de estados do processo 6:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: 0 | 7: 0 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 6 testou o processo 4 correto no tempo 30.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: -1 | 10: -1 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 6 testou o processo 2 correto no tempo 30.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: -1 | 10: 0 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 6 testou o processo 14 correto no tempo 30.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: -1 | 10: 0 | 11: -1 | 12: 0 | 13: -1 | 14: 0 | 15: -1 | 
+Vetor de estados do processo 7:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: 0 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 7 testou o processo 6 correto no tempo 30.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: -1 | 10: 0 | 11: -1 | 12: 0 | 13: -1 | 14: 0 | 15: -1 | 
+O processo 7 testou o processo 5 correto no tempo 30.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 7 testou o processo 3 correto no tempo 30.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 7 testou o processo 15 correto no tempo 30.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 8:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 8 testou o processo 9 correto no tempo 30.0
+Vetor de estados do processo 8:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 8 testou o processo 10 correto no tempo 30.0
+Vetor de estados do processo 8:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 8 testou o processo 12 correto no tempo 30.0
+Vetor de estados do processo 8:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 8 testou o processo 0 correto no tempo 30.0
+Vetor de estados do processo 8:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+Vetor de estados do processo 9:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: 0 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 9 testou o processo 8 correto no tempo 30.0
+Vetor de estados do processo 9:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 9 testou o processo 11 correto no tempo 30.0
+Vetor de estados do processo 9:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 9 testou o processo 13 correto no tempo 30.0
+Vetor de estados do processo 9:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: -1 | 15: -1 | 
+O processo 9 testou o processo 1 correto no tempo 30.0
+Vetor de estados do processo 9:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: -1 | 15: -1 | 
+Vetor de estados do processo 10:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: 0 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 10 testou o processo 11 correto no tempo 30.0
+Vetor de estados do processo 10:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: 0 | 11: 0 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 10 testou o processo 8 correto no tempo 30.0
+Vetor de estados do processo 10:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 10 testou o processo 14 correto no tempo 30.0
+Vetor de estados do processo 10:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: -1 | 14: 0 | 15: -1 | 
+O processo 10 testou o processo 2 correto no tempo 30.0
+Vetor de estados do processo 10:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: -1 | 14: 0 | 15: -1 | 
+Vetor de estados do processo 11:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: 0 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 11 testou o processo 10 correto no tempo 30.0
+Vetor de estados do processo 11:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: -1 | 14: 0 | 15: -1 | 
+O processo 11 testou o processo 9 correto no tempo 30.0
+Vetor de estados do processo 11:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 11 testou o processo 15 correto no tempo 30.0
+Vetor de estados do processo 11:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 11 testou o processo 3 correto no tempo 30.0
+Vetor de estados do processo 11:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 12:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 12 testou o processo 13 correto no tempo 30.0
+Vetor de estados do processo 12:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: 0 | 13: 0 | 14: -1 | 15: -1 | 
+O processo 12 testou o processo 14 correto no tempo 30.0
+Vetor de estados do processo 12:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 12 testou o processo 8 correto no tempo 30.0
+Vetor de estados do processo 12:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 12 testou o processo 4 correto no tempo 30.0
+Vetor de estados do processo 12:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+Vetor de estados do processo 13:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: 0 | 14: -1 | 15: -1 | 
+O processo 13 testou o processo 12 correto no tempo 30.0
+Vetor de estados do processo 13:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 13 testou o processo 15 correto no tempo 30.0
+Vetor de estados do processo 13:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 13 testou o processo 9 correto no tempo 30.0
+Vetor de estados do processo 13:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 13 testou o processo 5 correto no tempo 30.0
+Vetor de estados do processo 13:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 14:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: 0 | 15: -1 | 
+O processo 14 testou o processo 15 correto no tempo 30.0
+Vetor de estados do processo 14:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: 0 | 15: 0 | 
+O processo 14 testou o processo 12 correto no tempo 30.0
+Vetor de estados do processo 14:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 14 testou o processo 10 correto no tempo 30.0
+Vetor de estados do processo 14:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 14 testou o processo 6 correto no tempo 30.0
+Vetor de estados do processo 14:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 15:
+0: -1 | 1: -1 | 2: -1 | 3: -1 | 4: -1 | 5: -1 | 6: -1 | 7: -1 | 8: -1 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: 0 | 
+O processo 15 testou o processo 14 correto no tempo 30.0
+Vetor de estados do processo 15:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 15 testou o processo 13 correto no tempo 30.0
+Vetor de estados do processo 15:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 15 testou o processo 11 correto no tempo 30.0
+Vetor de estados do processo 15:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 15 testou o processo 7 correto no tempo 30.0
+Vetor de estados do processo 15:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: -1 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 0 testou o processo 1 correto no tempo 60.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 0 testou o processo 2 correto no tempo 60.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 0 testou o processo 4 correto no tempo 60.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 0 testou o processo 8 correto no tempo 60.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: -1 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 1 testou o processo 0 correto no tempo 60.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 1 testou o processo 3 correto no tempo 60.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 1 testou o processo 5 correto no tempo 60.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: -1 | 15: -1 | 
+O processo 1 testou o processo 9 correto no tempo 60.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: -1 | 15: -1 | 
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: 0 | 7: -1 | 8: 0 | 9: -1 | 10: 0 | 11: -1 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 2 testou o processo 3 correto no tempo 60.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 2 testou o processo 0 correto no tempo 60.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 2 testou o processo 6 correto no tempo 60.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: -1 | 14: 0 | 15: -1 | 
+O processo 2 testou o processo 10 correto no tempo 60.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: -1 | 14: 0 | 15: -1 | 
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: -1 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 3 testou o processo 2 correto no tempo 60.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: -1 | 14: 0 | 15: -1 | 
+O processo 3 testou o processo 1 correto no tempo 60.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 3 testou o processo 7 correto no tempo 60.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 3 testou o processo 11 correto no tempo 60.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: -1 | 10: -1 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 4 testou o processo 5 correto no tempo 60.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: -1 | 11: -1 | 12: 0 | 13: 0 | 14: -1 | 15: -1 | 
+O processo 4 testou o processo 6 correto no tempo 60.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 4 testou o processo 0 correto no tempo 60.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 4 testou o processo 12 correto no tempo 60.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: -1 | 11: -1 | 12: 0 | 13: 0 | 14: -1 | 15: -1 | 
+O processo 5 testou o processo 4 correto no tempo 60.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 5 testou o processo 7 correto no tempo 60.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 5 testou o processo 1 correto no tempo 60.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 5 testou o processo 13 correto no tempo 60.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: -1 | 10: 0 | 11: -1 | 12: 0 | 13: -1 | 14: 0 | 15: -1 | 
+O processo 6 testou o processo 7 correto no tempo 60.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 6 testou o processo 4 correto no tempo 60.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 6 testou o processo 2 correto no tempo 60.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 6 testou o processo 14 correto no tempo 60.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 7 testou o processo 6 correto no tempo 60.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 7 testou o processo 5 correto no tempo 60.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 7 testou o processo 3 correto no tempo 60.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 7 testou o processo 15 correto no tempo 60.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 8:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: -1 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 8 testou o processo 9 correto no tempo 60.0
+Vetor de estados do processo 8:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: -1 | 15: -1 | 
+O processo 8 testou o processo 10 correto no tempo 60.0
+Vetor de estados do processo 8:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 8 testou o processo 12 correto no tempo 60.0
+Vetor de estados do processo 8:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 8 testou o processo 0 correto no tempo 60.0
+Vetor de estados do processo 8:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+Vetor de estados do processo 9:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: -1 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: -1 | 15: -1 | 
+O processo 9 testou o processo 8 correto no tempo 60.0
+Vetor de estados do processo 9:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 9 testou o processo 11 correto no tempo 60.0
+Vetor de estados do processo 9:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 9 testou o processo 13 correto no tempo 60.0
+Vetor de estados do processo 9:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 9 testou o processo 1 correto no tempo 60.0
+Vetor de estados do processo 9:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 10:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: -1 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: -1 | 14: 0 | 15: -1 | 
+O processo 10 testou o processo 11 correto no tempo 60.0
+Vetor de estados do processo 10:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 10 testou o processo 8 correto no tempo 60.0
+Vetor de estados do processo 10:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 10 testou o processo 14 correto no tempo 60.0
+Vetor de estados do processo 10:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 10 testou o processo 2 correto no tempo 60.0
+Vetor de estados do processo 10:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 11:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 11 testou o processo 10 correto no tempo 60.0
+Vetor de estados do processo 11:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 11 testou o processo 9 correto no tempo 60.0
+Vetor de estados do processo 11:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 11 testou o processo 15 correto no tempo 60.0
+Vetor de estados do processo 11:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 11 testou o processo 3 correto no tempo 60.0
+Vetor de estados do processo 11:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 12:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 12 testou o processo 13 correto no tempo 60.0
+Vetor de estados do processo 12:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 12 testou o processo 14 correto no tempo 60.0
+Vetor de estados do processo 12:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 12 testou o processo 8 correto no tempo 60.0
+Vetor de estados do processo 12:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 12 testou o processo 4 correto no tempo 60.0
+Vetor de estados do processo 12:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 13:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 13 testou o processo 12 correto no tempo 60.0
+Vetor de estados do processo 13:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 13 testou o processo 15 correto no tempo 60.0
+Vetor de estados do processo 13:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 13 testou o processo 9 correto no tempo 60.0
+Vetor de estados do processo 13:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 13 testou o processo 5 correto no tempo 60.0
+Vetor de estados do processo 13:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 14:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 14 testou o processo 15 correto no tempo 60.0
+Vetor de estados do processo 14:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 14 testou o processo 12 correto no tempo 60.0
+Vetor de estados do processo 14:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 14 testou o processo 10 correto no tempo 60.0
+Vetor de estados do processo 14:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 14 testou o processo 6 correto no tempo 60.0
+Vetor de estados do processo 14:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 15:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 15 testou o processo 14 correto no tempo 60.0
+Vetor de estados do processo 15:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 15 testou o processo 13 correto no tempo 60.0
+Vetor de estados do processo 15:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 15 testou o processo 11 correto no tempo 60.0
+Vetor de estados do processo 15:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 15 testou o processo 7 correto no tempo 60.0
+Vetor de estados do processo 15:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: -1 | 14: -1 | 15: -1 | 
+O processo 0 testou o processo 1 correto no tempo 90.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: -1 | 15: -1 | 
+O processo 0 testou o processo 2 correto no tempo 90.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 0 testou o processo 4 correto no tempo 90.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 0 testou o processo 8 correto no tempo 90.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: -1 | 15: -1 | 
+O processo 1 testou o processo 0 correto no tempo 90.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 1 testou o processo 3 correto no tempo 90.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 1 testou o processo 5 correto no tempo 90.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 1 testou o processo 9 correto no tempo 90.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: -1 | 14: 0 | 15: -1 | 
+O processo 2 testou o processo 3 correto no tempo 90.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 2 testou o processo 0 correto no tempo 90.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 2 testou o processo 6 correto no tempo 90.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 2 testou o processo 10 correto no tempo 90.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 3 testou o processo 2 correto no tempo 90.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 3 testou o processo 1 correto no tempo 90.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 3 testou o processo 7 correto no tempo 90.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 3 testou o processo 11 correto no tempo 90.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: -1 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 4 testou o processo 5 correto no tempo 90.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 4 testou o processo 6 correto no tempo 90.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 4 testou o processo 0 correto no tempo 90.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 4 testou o processo 12 correto no tempo 90.0
+Vetor de estados do processo 4:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 5 testou o processo 4 correto no tempo 90.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 5 testou o processo 7 correto no tempo 90.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 5 testou o processo 1 correto no tempo 90.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 5 testou o processo 13 correto no tempo 90.0
+Vetor de estados do processo 5:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 6 testou o processo 7 correto no tempo 90.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 6 testou o processo 4 correto no tempo 90.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 6 testou o processo 2 correto no tempo 90.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 6 testou o processo 14 correto no tempo 90.0
+Vetor de estados do processo 6:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 7 testou o processo 6 correto no tempo 90.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 7 testou o processo 5 correto no tempo 90.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 7 testou o processo 3 correto no tempo 90.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 7 testou o processo 15 correto no tempo 90.0
+Vetor de estados do processo 7:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 8:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: -1 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 8 testou o processo 9 correto no tempo 90.0
+Vetor de estados do processo 8:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 8 testou o processo 10 correto no tempo 90.0
+Vetor de estados do processo 8:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 8 testou o processo 12 correto no tempo 90.0
+Vetor de estados do processo 8:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 8 testou o processo 0 correto no tempo 90.0
+Vetor de estados do processo 8:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 9:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 9 testou o processo 8 correto no tempo 90.0
+Vetor de estados do processo 9:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 9 testou o processo 11 correto no tempo 90.0
+Vetor de estados do processo 9:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 9 testou o processo 13 correto no tempo 90.0
+Vetor de estados do processo 9:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 9 testou o processo 1 correto no tempo 90.0
+Vetor de estados do processo 9:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 10:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 10 testou o processo 11 correto no tempo 90.0
+Vetor de estados do processo 10:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 10 testou o processo 8 correto no tempo 90.0
+Vetor de estados do processo 10:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 10 testou o processo 14 correto no tempo 90.0
+Vetor de estados do processo 10:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 10 testou o processo 2 correto no tempo 90.0
+Vetor de estados do processo 10:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 11:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 11 testou o processo 10 correto no tempo 90.0
+Vetor de estados do processo 11:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 11 testou o processo 9 correto no tempo 90.0
+Vetor de estados do processo 11:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 11 testou o processo 15 correto no tempo 90.0
+Vetor de estados do processo 11:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 11 testou o processo 3 correto no tempo 90.0
+Vetor de estados do processo 11:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 12:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 12 testou o processo 13 correto no tempo 90.0
+Vetor de estados do processo 12:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 12 testou o processo 14 correto no tempo 90.0
+Vetor de estados do processo 12:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 12 testou o processo 8 correto no tempo 90.0
+Vetor de estados do processo 12:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 12 testou o processo 4 correto no tempo 90.0
+Vetor de estados do processo 12:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 13:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 13 testou o processo 12 correto no tempo 90.0
+Vetor de estados do processo 13:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 13 testou o processo 15 correto no tempo 90.0
+Vetor de estados do processo 13:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 13 testou o processo 9 correto no tempo 90.0
+Vetor de estados do processo 13:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 13 testou o processo 5 correto no tempo 90.0
+Vetor de estados do processo 13:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 14:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 14 testou o processo 15 correto no tempo 90.0
+Vetor de estados do processo 14:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 14 testou o processo 12 correto no tempo 90.0
+Vetor de estados do processo 14:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 14 testou o processo 10 correto no tempo 90.0
+Vetor de estados do processo 14:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 14 testou o processo 6 correto no tempo 90.0
+Vetor de estados do processo 14:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 15:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 15 testou o processo 14 correto no tempo 90.0
+Vetor de estados do processo 15:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 15 testou o processo 13 correto no tempo 90.0
+Vetor de estados do processo 15:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 15 testou o processo 11 correto no tempo 90.0
+Vetor de estados do processo 15:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 15 testou o processo 7 correto no tempo 90.0
+Vetor de estados do processo 15:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: -1 | 
+O processo 0 testou o processo 1 correto no tempo 120.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 0 testou o processo 2 correto no tempo 120.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 0 testou o processo 4 correto no tempo 120.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+O processo 0 testou o processo 8 correto no tempo 120.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 4: 0 | 5: 0 | 6: 0 | 7: 0 | 8: 0 | 9: 0 | 10: 0 | 11: 0 | 12: 0 | 13: 0 | 14: 0 | 15: 0 | 
+Pai: 0 - s: 4
+Pai: 0 - filho: 1
+Pai: 1 - s: 1
+Eh folha: 1
+Pai: 0 - filho: 2
+Pai: 2 - s: 2
+Pai: 2 - filho: 3
+Pai: 3 - s: 1
+Eh folha: 3
+Pai: 0 - filho: 4
+Pai: 4 - s: 3
+Pai: 4 - filho: 5
+Pai: 5 - s: 1
+Eh folha: 5
+Pai: 4 - filho: 6
+Pai: 6 - s: 2
+Pai: 6 - filho: 7
+Pai: 7 - s: 1
+Eh folha: 7
+Pai: 0 - filho: 8
+Pai: 8 - s: 4
+Pai: 8 - filho: 9
+Pai: 9 - s: 1
+Eh folha: 9
+Pai: 8 - filho: 10
+Pai: 10 - s: 2
+Pai: 10 - filho: 11
+Pai: 11 - s: 1
+Eh folha: 11
+Pai: 8 - filho: 12
+Pai: 12 - s: 3
+Pai: 12 - filho: 13
+Pai: 13 - s: 1
+Eh folha: 13
+Pai: 12 - filho: 14
+Pai: 14 - s: 2
+Pai: 14 - filho: 15
+Pai: 15 - s: 1
+Eh folha: 15

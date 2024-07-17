@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Trabalho 2 Sistemas Distribuídos, Fernando Francisco Druszcz</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style type="text/css">
+		body {
+			background-color: #6CBB3C;
+		}
+	</style>
+</head>
+
+<body>
+	<div align="center">
+		<table style="font-family:Verdana; font-size:12pt" width="80%" cellpadding="4" border="0" bgcolor="white">
+
+			<tbody>
+				<tr>
+					<td>
+						<p>
+							<b>TRABALHO PRÁTICO</b>
+						</p>
+						<p><b>Relatório:</b></p>
+
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp; Para implementar o algoritmo do Trabalho Prático 2, usei como base o programa construido no Trabalho Prático 1 (TP1).
+							Para que a árvore seja construida em cima do TP1, determei, de maneira estática no código, que isso ocorra quando o processo raiz da árvore desejada tiver conhecimento do estado de todos os outros processos.
+							<img src="./arqs/ondeGeraArvore.png">
+						</p>
+
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp; Para construir a árvore de fato, crei uma função recursiva chamada mstree com os parâmetros:
+							<ul>
+								<li>raiz: na primeira chamada à mstree será a raiz de fato, nas chamadas subsequentes será o processo filho</li>
+								<li>d: a dimensão da árvore, ou o s-filho</li>
+								<li>state: vetor de estado dos processos</li>
+								<li>pai: para questões de controle precisamos saber quem foi o chamador dentro da recursão</li>
+							</ul>
+							<img src="./arqs/mstree.png">
+						</p>
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp; Essa função vai se utilizar de outro ponto importante do TP1: a fila de testes. No TP1 criei a função defineFilaTestes para encontrar
+							os processos que deveriam ser testados por um dado processo. Com isso, podemos utilizar essa função para descobrirmos os filhos da raiz.							
+						</p>
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp; Dessa forma a função passa por todos os s de 1 até s-filho (ou a dimensão do vCube), imprimindo o primeiro processo correto e fazendo as chamadas
+							subsequentes para os filhos contruirem o resto da árvore, ou seja, os filhos dos filhos. E caso o s-filho chegue em 1, aquele caminho da árvore está construído e a recursão pode retornar.
+						</p>
+
+						
+
+						<p><b>Testes e Logs</b></p>
+						<a href="./arqs/raiz_0_dim_2.txt">1. Raiz 0 e dimensão 2</a><br>
+						<a href="./arqs/raiz_0_dim_3.txt">2. Raiz 0 e dimensão 3</a><br>
+						<a href="./arqs/raiz_0_dim_3_falhas.txt">3. Raiz 0, dimensão 3 e processos 1,2,4,7 falhos</a><br>
+						<a href="./arqs/raiz_7_dim_3_falha_0.txt">4. Raiz 7, dimensão 3 e processo 0 falho</a><br>
+						<a href="./arqs/raiz_0_dim_4.txt">5. Raiz 0 e dimensão 4</a><br>
+						&nbsp;&nbsp;&nbsp;&nbsp; Como a função é recursiva, a ordem dos logs pode ficar um tanto confusa. Para elucidar melhor vamos pegar como exemplo <a href="./arqs/raiz_0_dim_3.txt">o log 2</a> e reordenar a impressão dos logs, juntando as linhas onde o "pai" é o mesmo.
+						<br><img src="./arqs/logs.png"><br>
+						&nbsp;&nbsp;&nbsp;&nbsp; Na esquerda temos o log na sua ordenação natural, e na direita o log reordenado para melhor vizualização. Assim, podemos ver o funcionamento do algoritmo, criando a árvore com raiz em 0, que tem como filhos 1, 2 e 4. Onde 1 é folha. 2 tem como filho o nó folha 3. 4 tem como filhos os nós 5, que é folha, e 6, que por sua vez tem o nó folha 7 como filho. Completando a árvore. 
+
+
+						<p><b>Fontes do trabalho</b></p>
+						<a href="./arqs/tempo.c.txt">tempo.c</a>
+						<a href="./arqs/cisj.c.txt">cisj.c</a>
+						<a href="./arqs/cisj.h.txt">cisj.h</a>
+						<a href="./arqs/smpl.c.txt">smpl.c</a>
+						<a href="./arqs/rand.c.txt">rand.c</a>
+						<a href="./arqs/smpl.h.txt">smpl.h</a>
+						<a href="./arqs/makefile.txt">makefile</a>
+					</td>
+				</tr>
+			</tbody>
+</body>
+
+</html>

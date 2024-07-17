@@ -1,0 +1,299 @@
+/* Autor: Elias P. Duarte Jr.
+ Autor da tarefa: Fernando Francisco Druszcz
+ Data da Última Modificação: 16/Julho/2024
+ Descrição: Trabalho 2: Arvore geradora minima autonomica*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "smpl.h"
+#include "cisj.h"
+
+int ehPotenciaDois(int n)
+{
+  if (n == 0)
+    return 0;
+  return (ceil(log2(n)) == floor(log2(n)));
+}
+
+// Vamos definir os EVENTOS
+#define test 1
+#define fault 2
+#define recovery 3
+
+// Vamos definir o descritor do processo
+
+typedef struct
+{
+  int id; // identificador de facility do SMPL
+  int *state;
+} TipoProcesso;
+
+//
+// Variaveis globais
+//
+
+TipoProcesso *processo;
+static int N; // Numero de processos
+
+//
+//
+//
+void imprimeVetorState(int token)
+{
+  printf("Vetor de estados do processo %d:\n", token);
+  for (int j = 0; j < N; j++)
+  {
+    printf("%d: %d | ", j, processo[token].state[j]);
+  }
+  printf("\n");
+}
+
+int testouTodos(int token)
+{
+  // Se algum estado estiver com -1, significa que o estado dele eh desconhecido
+  for (int j = 0; j < N; j++)
+    if (processo[token].state[j] == -1)
+      return 0;
+
+  return 1;
+}
+
+//
+// Identifica quais processos devem ser testados pelo processo <token>
+// no cluster <cluster> e retorna no vetor <fila>
+//
+int defineFilaTestes(int token, int cluster, int *fila)
+{
+  node_set *nodes;
+  int i, j, k;
+  int tam = 0;
+  int para = 0;
+  // printf("Montando a fila de testes para %d (cluster %d)\n", token, cluster);
+  for (i = 0; i < N; i++)
+  {
+    // Nao vamos testar o proprio processo
+    if (i == token)
+      continue;
+
+    nodes = cis(i, cluster);
+    para = 0;
+    for (j = 0; ((j < nodes->size) && (!para)); j++)
+    {
+      // Se encontrarmos um processo correto
+      // antes de encontrarmos o processo <token>
+      // paramos sem inserir na fila
+      // Se encontrarmos o processo <token> antes,
+      // ele eh o testador do processo i
+
+      // Encontrou processo correto
+      if (processo[token].state[nodes->nodes[j]] % 2 == 0)
+      {
+        // Pode ser que imprima mesmo de C(i,s) que nem tem o <token>
+        // if (token != nodes->nodes[j])
+        // printf("Processo %d sera testado por outro processo (%d)\n", i, nodes->nodes[j]);
+
+        para = 1;
+      }
+
+      // Chegou no processo token
+      if (token == nodes->nodes[j])
+      {
+        // printf("Inserindo %d na fila, pos %d\n", i, tam);
+        fila[tam] = i;
+        tam++;
+        para = 1;
+      }
+    }
+  }
+
+  return tam;
+}
+
+//
+// Constroi a arvore geradora minima
+//
+void mstree(int raiz, int d, int *state, int pai)
+{
+  printf("Pai: %d - s: %d\n", raiz, d);
+  if (d <= 1)
+  {
+    printf("Eh folha: %d\n", raiz);
+    return;
+  }
+
+  int *fila = (int *)malloc(sizeof(int) * d);
+  int tamFila;
+  for (int s = 1; s <= d; s++)
+  {
+    tamFila = defineFilaTestes(raiz, s, fila);
+    for (int i = 0; i < tamFila; i++)
+    {
+      if (fila[i] != pai)
+      {
+        printf("Pai: %d - filho: %d\n", raiz, fila[i]);
+        if (state[fila[i]] % 2 == 0)
+          mstree(fila[i], s, state, raiz);
+        else
+          printf ("Filho estah falho\n");
+      }
+    }
+  }
+
+}
+
+//
+// Inicio da execucao
+//
+int main(int argc, char *argv[])
+{
+
+  static int
+      token, // indica o processo que está executando
+      teste, tokenTestado,
+      event, r, i, j, s,
+      MaxTempoSimulac = 120;
+
+  // define quem o processo deve testar na rodada
+  int *filaTestes;
+  int tamFila;
+
+  static char fa_name[5];
+
+  if (argc != 2)
+  {
+    puts("Uso correto: tempo <número de processos>");
+    exit(1);
+  }
+
+  N = atoi(argv[1]);
+
+  if (!ehPotenciaDois(N))
+  {
+    puts("Algoritmo não adaptado para num-nodos não potência de dois");
+    return 1;
+  }
+
+  smpl(0, "Um Exemplo de Simulação");
+  reset();
+  stream(1);
+
+  // inicializar processos
+
+  processo = (TipoProcesso *)malloc(sizeof(TipoProcesso) * N);
+
+  for (i = 0; i < N; i++)
+  {
+    memset(fa_name, '\0', 5);
+    sprintf(fa_name, "%d", i);
+    processo[i].id = facility(fa_name, 1);
+    // inicializa o vetor de estados
+    processo[i].state = (int *)malloc(sizeof(int) * N);
+    for (j = 0; j < N; j++)
+    {
+      if (j == i) // se for o proprio processo
+        processo[i].state[j] = 0;
+      else
+        processo[i].state[j] = -1;
+    }
+  }
+
+  // Inicializa a fila de testes com o tamanho maximo possivel de testes
+  filaTestes = (int *)malloc(sizeof(int) * N);
+
+  // vamos fazer o escalonamento inicial de eventos
+
+  // nossos processos vão executar testes em intervalos de testes
+  // o intervalo de testes vai ser de 30 unidades de tempo
+  // a simulação começa no tempo 0 (zero) e vamos escalonar o primeiro teste de todos os
+  //       processos para o tempo 30.0
+
+  // schedule(fault, 10.0, 0);
+
+  for (i = 0; i < N; i++)
+  {
+    schedule(test, 30.0, i);
+  }
+
+  //
+  // agora vem o loop principal do simulador
+  //
+
+  puts("===============================================================");
+  puts("           Sistemas Distribuídos Prof. Elias");
+  puts("              LOG do Trabalho Prático 2");
+  puts("      Digitar, compilar e executar o programa tempo.c");
+  printf("   Este programa foi executado para: N=%d processos.\n", N);
+  printf("           Tempo Total de Simulação = %d\n", MaxTempoSimulac);
+  puts("===============================================================");
+
+  while (time() < MaxTempoSimulac)
+  {
+    cause(&event, &token);
+    switch (event)
+    {
+    case test:
+
+      if (status(processo[token].id) != 0)
+        break; // se o processo está falho, não testa!
+
+      imprimeVetorState(token);
+      for (s = 1; s <= log2(N); s++)
+      {
+        // Para cada Cluster s
+        // Define a fila de processos que o <token> deve testar
+        tamFila = defineFilaTestes(token, s, filaTestes);
+        for (i = 0; i < tamFila; i++)
+        {
+          tokenTestado = filaTestes[i];
+
+          teste = status(processo[tokenTestado].id);
+          if (teste != 0)
+          {
+            printf("O processo %d testou o processo %d falho no tempo %4.1f\n", token, tokenTestado, time());
+          }
+          else
+          {
+            printf("O processo %d testou o processo %d correto no tempo %4.1f\n", token, tokenTestado, time());
+          }
+
+          // Inicializa com 0 ou 1, pra nao dar problema com o % 2
+          if (processo[token].state[tokenTestado] == -1)
+            processo[token].state[tokenTestado] = teste;
+
+          // Atualiza o state se houve mudanca de estado
+          if (teste % 2 != processo[token].state[tokenTestado] % 2)
+            processo[token].state[tokenTestado]++;
+
+          // Se o teste deu correto, atualizamos o state com as novidades
+          if (teste == 0)
+          {
+            for (j = 0; j < N; j++)
+            {
+              if (j != token)
+                if (processo[tokenTestado].state[j] > processo[token].state[j])
+                  processo[token].state[j] = processo[tokenTestado].state[j];
+            }
+          }
+
+          imprimeVetorState(token);
+        }
+      }
+
+      // Se jah testou e obteve info de todo mundo, imprime a arvore
+      if ((token == 0) && (testouTodos(token)))
+        mstree(token, log2(N), processo[token].state, -1);
+
+      schedule(test, 30.0, token);
+      break;
+    case fault:
+      r = request(processo[token].id, token, 0);
+      printf("Socooorro!!! Sou o processo %d  e estou falhando no tempo %4.1f\n", token, time());
+      break;
+    case recovery:
+      release(processo[token].id, token);
+      printf("Viva!!! Sou o processo %d e acabo de recuperar no tempo %4.1f\n", token, time());
+      schedule(test, 1.0, token);
+      break;
+    } // switch
+  } // while
+} // tempo.c

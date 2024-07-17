@@ -1,0 +1,56 @@
+===============================================================
+           Sistemas Distribuídos Prof. Elias
+              LOG do Trabalho Prático 2
+      Digitar, compilar e executar o programa tempo.c
+   Este programa foi executado para: N=4 processos.
+           Tempo Total de Simulação = 90
+===============================================================
+Vetor de estados do processo 0:
+0: 0 | 1: -1 | 2: -1 | 3: -1 | 
+O processo 0 testou o processo 1 correto no tempo 30.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: -1 | 3: -1 | 
+O processo 0 testou o processo 2 correto no tempo 30.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 
+Vetor de estados do processo 1:
+0: -1 | 1: 0 | 2: -1 | 3: -1 | 
+O processo 1 testou o processo 0 correto no tempo 30.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 
+O processo 1 testou o processo 3 correto no tempo 30.0
+Vetor de estados do processo 1:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 
+Vetor de estados do processo 2:
+0: -1 | 1: -1 | 2: 0 | 3: -1 | 
+O processo 2 testou o processo 3 correto no tempo 30.0
+Vetor de estados do processo 2:
+0: -1 | 1: -1 | 2: 0 | 3: 0 | 
+O processo 2 testou o processo 0 correto no tempo 30.0
+Vetor de estados do processo 2:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 
+Vetor de estados do processo 3:
+0: -1 | 1: -1 | 2: -1 | 3: 0 | 
+O processo 3 testou o processo 2 correto no tempo 30.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 
+O processo 3 testou o processo 1 correto no tempo 30.0
+Vetor de estados do processo 3:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: -1 | 
+O processo 0 testou o processo 1 correto no tempo 60.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 
+O processo 0 testou o processo 2 correto no tempo 60.0
+Vetor de estados do processo 0:
+0: 0 | 1: 0 | 2: 0 | 3: 0 | 
+Pai: 0 - s: 2
+Pai: 0 - filho: 1
+Pai: 1 - s: 1
+Eh folha: 1
+Pai: 0 - filho: 2
+Pai: 2 - s: 2
+Pai: 2 - filho: 3
+Pai: 3 - s: 1
+Eh folha: 3
